@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruleta apuesta</title>
+    <link rel="stylesheet" href="./app.css">
+
+</head>
+
+<body>
+    <div id='main'>
+        <div class="textSection">
+            <h1>Tic Tac Toe</h1>
+            <span>&copy;Cristian Onetto Ovando</span>
+            <button class="reset" id="reset">Reset</button>
+            <div id="winner"> </div>
+        </div>
+        <div class="ui">
+            <div class='row'>
+                <input type="text" id="area1" class="cell" onclick="selectArea(id);">
+                <input type="text" id="area2" class="cell" onclick="selectArea(id);">
+                <input type="text" id="area3" class="cell" onclick="selectArea(id);">
+            </div>
+            <div class='row'>
+                <input type="text" id="area4" class="cell" onclick="selectArea(id);">
+                <input type="text" id="area5" class="cell" onclick="selectArea(id);">
+                <input type="text" id="area6" class="cell" onclick="selectArea(id);">
+            </div>
+            <div class='row'>
+                <input type="text" id="area7" class="cell" onclick="selectArea(id);">
+                <input type="text" id="area8" class="cell" onclick="selectArea(id);">
+                <input type="text" id="area9" class="cell" onclick="selectArea(id);">
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="./script.js"></script>
+
+</html>
